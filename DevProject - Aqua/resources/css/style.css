@@ -1,0 +1,112 @@
+body {
+  font-family: sans-serif;
+  background-image: url('https://images.unsplash.com/photo-1618397746666-63405ce5d015?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1567&q=80');
+  background-size: cover;
+}
+
+.navbar {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: palegoldenrod;
+    padding: 30px 0;
+    font-weight: 500;
+}
+
+.navbar-toggler-icon {
+    background-image: url(data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 30 30'%3e%3cpath stroke='rgba%280, 0, 0, 0.55%29' stroke-linecap='round' stroke-miterlimit='10' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e);
+    display: inline-block;
+    width: 1.5em;
+    height: 1.5em;
+    vertical-align: middle;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 100%;
+}
+
+.navbar-nav {
+    display: flex;
+    flex-direction: column;
+    padding-left: 0;
+    margin-bottom: 0;
+    list-style: none;
+}
+
+.navbar-collapse {
+    flex-basis: 100%;
+    flex-grow: 1;
+    align-items: center;
+}
+
+.banner {
+    background-color: midnightblue;
+    background-size: 100%;
+    color: white;
+    text-align: center;
+    padding: 100px;
+}
+
+#aqua-pfp {
+    height: 93.33px;
+    width: 166px;
+    filter: drop-shadow(1px 1px 1px black);
+}
+
+#axis-cult {
+    color: midnightblue;
+    font-size: 100px;
+}
+
+.aqua-section {
+    padding: 20px 50px;
+}
+
+.pfp-1 {
+    background-image: url('../images/aqua-pfp.gif');
+    background-size: cover;
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.pfp-2 {
+    background-image: url('../images/kakashi.gif');
+    background-size: cover;
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.pfp-3 {
+    background-image: url('../images/chika.gif');
+    background-size: cover;
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    display: inline-block;
+    vertical-align: middle;
+}
+
+#posts ul {
+    list-style-type: none;
+}
+
+.bold {
+    font-weight: 900;
+}
+
+a {
+    color: black !important;
+}
+
+#text {
+    font-weight: 500;
+}
+
+#copyright {
+    font-weight: 100;
+}
